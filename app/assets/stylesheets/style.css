@@ -1,0 +1,40 @@
+.form_div {
+	border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 40%;
+}
+
+.list_div_left {
+	float: left;
+	border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    margin: 50px 60px 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.list_div_right {
+	float: right;
+	border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    margin: 50px 60px 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.list_div_left h2, .list_div_right h2 {
+	margin: 0 0 20px;
+    text-align: center;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+}
+
+.form_controls {
+	margin: 10px 0;
+}
+
+table {width: 100%;}
+
+table tr td {padding: 0 10px 10px 0; text-align: center;}

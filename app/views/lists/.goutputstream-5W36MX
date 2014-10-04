@@ -1,0 +1,12 @@
+<div class="list_div">
+<table>
+	<% @lists.each do |list| %>
+		<tr>
+		  <td style="width: 20%;"><%= list.name%></td>
+		  <td><%= list.description%></td>
+		  <td style="width: 10%;"><%=link_to "Show" %></td>
+		  <td style="width: 10%;"><%=link_to "Remove" %></td>
+		</tr>
+	<% end %>
+</table>
+</div>
